@@ -21,7 +21,7 @@ Ngược lại, lựa chọn `--bare` khi sử dụng `git init` tạo ra một 
 Cú pháp:
 
 ```bash
-git init --bare
+git init --bare <name_repo>
 ```
 
 Kho lưu trữ "bare" thường được sử dụng trên máy chủ từ xa, nơi mà mọi người có thể đẩy (push) và kéo (pull) từ đó mà không làm việc trực tiếp trong thư mục `.git`. Kho lưu trữ "bare" không có một thư mục làm việc để chứa các tệp làm việc thông thường, và nó chỉ chứa các đối tượng Git, refs và các thông tin liên quan đến lịch sử commit.
